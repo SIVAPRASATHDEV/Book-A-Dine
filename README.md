@@ -5,8 +5,7 @@ I'm trying to deepen my knowledge about Laravel, especially about relationships 
 
 ## Installation
 ```
-- git clone https://github.com/Caknoooo/restaurant-reservation-app.git
-- cd restaurant-reservation-app
+ you have source code want to download zip format and extract 
 - open your IDE or Editor Code
 - cp .env.example .env
 - open terminal again, and run:
