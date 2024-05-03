@@ -1,0 +1,195 @@
+.guest-navbar{
+    border-bottom: 1px solid #fff;
+    
+}
+@keyframes motto {
+    from{
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+.guest-navbar nav{
+    height: 130px;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    animation-name: motto ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.home-icon{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 800;
+   
+}
+.home-icon:hover{
+    color: #ff0000;
+}
+.nav-item{
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px;
+}
+.nav-item:hover{
+    color: #09ff00;
+    border-bottom: 2px solid tomato;
+}
+
+.index-login{
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #ff0000;
+}
+.index-login:hover{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 20px;
+
+}
+
+.breadcrumb{
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-weight: 500;
+    padding: 0;
+    color: #fff;
+}
+.breadcrumb-item-active{
+    color: rgb(187, 187, 187);
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+    color: #fff;
+}
+
+
+
+footer{  
+    margin-top: 50px;
+    padding-bottom: 20px;
+    background-color: #000000 ;
+    color: #fff;
+    
+}
+hr{
+    border-top: 2px solid #fff;
+}
+footer .contact-us{
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+footer .about{
+    margin-top: 50px;
+}
+.footer-icon{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.icon-slogan{
+    margin-left: 20px;
+    width:80%;
+    text-align: center;
+}
+.address i{
+    font-size: 25px;
+    color: #ffffff;
+    margin-right: 8px;
+}
+.contact-us h1{
+    width: fit-content;
+    border-bottom: 2px solid tomato;
+}
+
+.contact{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.social-media-head{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.social-media .s-icon{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.book{
+    position: fixed;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 85%;
+    margin-bottom: 10px;
+    bottom: 10px;
+    background-color: transparent;
+    padding: 3px;
+}
+.book .booking a{
+    border-radius: 5px;
+    background-color: #000000;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    margin: 10px;
+    
+    
+}
+
+.booking a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 17px 3px #ffff01,0 0 4px 2px #ffff01;
+    z-index: -1;
+    animation-name: gradient-shadow;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 5px;
+    }
+    
+  @keyframes gradient-shadow {
+    0% {
+              box-shadow: 0 0 17px 3px #C586C0,0 0 4px 2px #C586C0;
+    }
+    20% {
+              box-shadow: 0 0 17px 3px #0ff,0 0 4px 2px #0ff;
+    }
+    40% {
+              box-shadow: 0 0 17px 3px #0f0,0 0 4px 2px #0f0;
+    }
+    60% {
+              box-shadow: 0 0 17px 3px #ffff01,0 0 4px 2px #ffff01;
+    }
+    80% {
+              box-shadow: 0 0 17px 3px #f00,0 0 4px 2px #f00;
+    }
+    100% {
+              box-shadow: 0 0 17px 3px #C586C0,0 0 4px 2px #C586C0;
+    }
+  }
+  

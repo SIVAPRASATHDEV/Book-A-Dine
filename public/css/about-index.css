@@ -1,0 +1,76 @@
+.about-image img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    animation-name: motto ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.about-image .text{
+    position: absolute;
+    display: inline;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 70%;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    animation-name: motto ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+}
+.ab-1,.ab-2{
+    margin: 100px;
+    color: #fff;
+    
+}
+.ab-1 img , .ab-2 img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.ab-1-head{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.ab-1-text{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+@keyframes motto {
+    from{
+        opacity: 0;
+        transform: translate3d(-100%,0,0);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.gtn{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 5rem;
+    text-transform: uppercase;
+}
+form{
+    background-color: #000000;
+    color: #fff;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 20px;
+    box-shadow: 36px 41px 53px -26px rgba(255, 255, 255, 0.75);
+}
+form .form-control{
+    border-radius: 10px;
+}

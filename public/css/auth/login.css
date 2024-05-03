@@ -1,0 +1,30 @@
+.login{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+form h1{
+    color: #ff0000;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+
+}
+
+.reg-btn{
+    background-color: #06ff44;
+    padding: 5px;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 150px;
+    text-align: center;
+    font-weight: 400px;
+    margin-left: 10px;
+}
+.reg-btn:hover , .log-btn:hover{
+    background-color: aqua;
+    color: #000;
+}

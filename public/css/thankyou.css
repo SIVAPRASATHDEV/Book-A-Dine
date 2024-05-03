@@ -1,0 +1,25 @@
+.thank{
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 20%;
+    width: fit-content;
+    padding: 20px;
+}
+.thank h1{
+    font-size: x-large;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.thank p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.thank span{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.thank span a{
+    font-size: 20px;
+    color: #ff0202;
+    padding: 10px;
+}
